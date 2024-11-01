@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9F1D0BF02CCAF42F00A74695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1D0BD52CCAF42D00A74695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D0BDC2CCAF42D00A74695;
+			remoteInfo = RiceDetectionApp;
+		};
+		9F1D0BFA2CCAF42F00A74695 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1D0BD52CCAF42D00A74695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D0BDC2CCAF42D00A74695;
+			remoteInfo = RiceDetectionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1D0BDD2CCAF42D00A74695 /* RiceDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiceDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D0BEF2CCAF42F00A74695 /* RiceDetectionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiceDetectionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D0BF92CCAF42F00A74695 /* RiceDetectionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiceDetectionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9F1D0BDF2CCAF42D00A74695 /* RiceDetectionApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RiceDetectionApp; sourceTree = "<group>"; };
+		9F1D0BF22CCAF42F00A74695 /* RiceDetectionAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RiceDetectionAppTests; sourceTree = "<group>"; };
+		9F1D0BFC2CCAF42F00A74695 /* RiceDetectionAppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RiceDetectionAppUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1D0BDA2CCAF42D00A74695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BEC2CCAF42F00A74695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BF62CCAF42F00A74695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1D0BD42CCAF42D00A74695 = {
+			isa = PBXGroup;
+			children = (
+				9F1D0BDF2CCAF42D00A74695 /* RiceDetectionApp */,
+				9F1D0BF22CCAF42F00A74695 /* RiceDetectionAppTests */,
+				9F1D0BFC2CCAF42F00A74695 /* RiceDetectionAppUITests */,
+				9F1D0BDE2CCAF42D00A74695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1D0BDE2CCAF42D00A74695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D0BDD2CCAF42D00A74695 /* RiceDetectionApp.app */,
+				9F1D0BEF2CCAF42F00A74695 /* RiceDetectionAppTests.xctest */,
+				9F1D0BF92CCAF42F00A74695 /* RiceDetectionAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1D0BDC2CCAF42D00A74695 /* RiceDetectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D0C032CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionApp" */;
+			buildPhases = (
+				9F1D0BD92CCAF42D00A74695 /* Sources */,
+				9F1D0BDA2CCAF42D00A74695 /* Frameworks */,
+				9F1D0BDB2CCAF42D00A74695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9F1D0BDF2CCAF42D00A74695 /* RiceDetectionApp */,
+			);
+			name = RiceDetectionApp;
+			packageProductDependencies = (
+			);
+			productName = RiceDetectionApp;
+			productReference = 9F1D0BDD2CCAF42D00A74695 /* RiceDetectionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1D0BEE2CCAF42F00A74695 /* RiceDetectionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D0C062CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionAppTests" */;
+			buildPhases = (
+				9F1D0BEB2CCAF42F00A74695 /* Sources */,
+				9F1D0BEC2CCAF42F00A74695 /* Frameworks */,
+				9F1D0BED2CCAF42F00A74695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1D0BF12CCAF42F00A74695 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F1D0BF22CCAF42F00A74695 /* RiceDetectionAppTests */,
+			);
+			name = RiceDetectionAppTests;
+			packageProductDependencies = (
+			);
+			productName = RiceDetectionAppTests;
+			productReference = 9F1D0BEF2CCAF42F00A74695 /* RiceDetectionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1D0BF82CCAF42F00A74695 /* RiceDetectionAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D0C092CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionAppUITests" */;
+			buildPhases = (
+				9F1D0BF52CCAF42F00A74695 /* Sources */,
+				9F1D0BF62CCAF42F00A74695 /* Frameworks */,
+				9F1D0BF72CCAF42F00A74695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1D0BFB2CCAF42F00A74695 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9F1D0BFC2CCAF42F00A74695 /* RiceDetectionAppUITests */,
+			);
+			name = RiceDetectionAppUITests;
+			packageProductDependencies = (
+			);
+			productName = RiceDetectionAppUITests;
+			productReference = 9F1D0BF92CCAF42F00A74695 /* RiceDetectionAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1D0BD52CCAF42D00A74695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9F1D0BDC2CCAF42D00A74695 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9F1D0BEE2CCAF42F00A74695 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9F1D0BDC2CCAF42D00A74695;
+					};
+					9F1D0BF82CCAF42F00A74695 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9F1D0BDC2CCAF42D00A74695;
+					};
+				};
+			};
+			buildConfigurationList = 9F1D0BD82CCAF42D00A74695 /* Build configuration list for PBXProject "RiceDetectionApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1D0BD42CCAF42D00A74695;
+			packageReferences = (
+			);
+			productRefGroup = 9F1D0BDE2CCAF42D00A74695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1D0BDC2CCAF42D00A74695 /* RiceDetectionApp */,
+				9F1D0BEE2CCAF42F00A74695 /* RiceDetectionAppTests */,
+				9F1D0BF82CCAF42F00A74695 /* RiceDetectionAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1D0BDB2CCAF42D00A74695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BED2CCAF42F00A74695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BF72CCAF42F00A74695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1D0BD92CCAF42D00A74695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BEB2CCAF42F00A74695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D0BF52CCAF42F00A74695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1D0BF12CCAF42F00A74695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1D0BDC2CCAF42D00A74695 /* RiceDetectionApp */;
+			targetProxy = 9F1D0BF02CCAF42F00A74695 /* PBXContainerItemProxy */;
+		};
+		9F1D0BFB2CCAF42F00A74695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1D0BDC2CCAF42D00A74695 /* RiceDetectionApp */;
+			targetProxy = 9F1D0BFA2CCAF42F00A74695 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F1D0C012CCAF42F00A74695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1D0C022CCAF42F00A74695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1D0C042CCAF42F00A74695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RiceDetectionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable camera to take a photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1D0C052CCAF42F00A74695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RiceDetectionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Enable camera to take a photo";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1D0C072CCAF42F00A74695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiceDetectionApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiceDetectionApp";
+			};
+			name = Debug;
+		};
+		9F1D0C082CCAF42F00A74695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiceDetectionApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RiceDetectionApp";
+			};
+			name = Release;
+		};
+		9F1D0C0A2CCAF42F00A74695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiceDetectionApp;
+			};
+			name = Debug;
+		};
+		9F1D0C0B2CCAF42F00A74695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMMGZ4UUAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.zf.RiceDetectionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiceDetectionApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1D0BD82CCAF42D00A74695 /* Build configuration list for PBXProject "RiceDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D0C012CCAF42F00A74695 /* Debug */,
+				9F1D0C022CCAF42F00A74695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D0C032CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D0C042CCAF42F00A74695 /* Debug */,
+				9F1D0C052CCAF42F00A74695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D0C062CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D0C072CCAF42F00A74695 /* Debug */,
+				9F1D0C082CCAF42F00A74695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D0C092CCAF42F00A74695 /* Build configuration list for PBXNativeTarget "RiceDetectionAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D0C0A2CCAF42F00A74695 /* Debug */,
+				9F1D0C0B2CCAF42F00A74695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1D0BD52CCAF42D00A74695 /* Project object */;
+}
