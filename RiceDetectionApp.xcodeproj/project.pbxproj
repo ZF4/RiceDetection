@@ -6,6 +6,10 @@
 	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9FB10CBD2CD5AD10000F0303 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9FB10CBC2CD5AD10000F0303 /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9F1D0BF02CCAF42F00A74695 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB10CBD2CD5AD10000F0303 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = RiceDetectionApp;
 			packageProductDependencies = (
+				9FB10CBC2CD5AD10000F0303 /* SwiftyJSON */,
 			);
 			productName = RiceDetectionApp;
 			productReference = 9F1D0BDD2CCAF42D00A74695 /* RiceDetectionApp.app */;
@@ -184,6 +190,7 @@
 			);
 			mainGroup = 9F1D0BD42CCAF42D00A74695;
 			packageReferences = (
+				9FB10CBB2CD5AD10000F0303 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 9F1D0BDE2CCAF42D00A74695 /* Products */;
 			projectDirPath = "";
@@ -310,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -367,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -388,6 +395,7 @@
 				DEVELOPMENT_TEAM = GMMGZ4UUAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AGETHA Lite";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Enable camera to take a photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -419,6 +427,7 @@
 				DEVELOPMENT_TEAM = GMMGZ4UUAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AGETHA Lite";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Enable camera to take a photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -551,6 +560,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FB10CBB2CD5AD10000F0303 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FB10CBC2CD5AD10000F0303 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FB10CBB2CD5AD10000F0303 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F1D0BD52CCAF42D00A74695 /* Project object */;
 }

@@ -8,16 +8,24 @@
 import Foundation
 import SwiftData
 
-struct Prediction: Codable {
-    var x: Double?
-    var y: Double?
-    var width: Int?
-    var height: Int?
+struct Prediction: Codable, Identifiable {
+    var id: String = UUID().uuidString
+    var x: Double
+    var y: Double
+    var width: Int
+    var height: Int
     var className: String?
     var confidence: Double?
+    
+    enum modelType {
+        case color
+        case size
+    }
+    
 //    var detectionID: String
     
     enum CodingKeys: String, CodingKey {
+        case id = "id"
         case x = "x"
         case y = "y"
         case width = "width"
@@ -25,29 +33,28 @@ struct Prediction: Codable {
         case className = "class"
         case confidence = "confidence"
     }
-    
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        x = try values.decodeIfPresent(Double.self, forKey: .x)
-        y = try values.decodeIfPresent(Double.self, forKey: .y)
-        width = try values.decodeIfPresent(Int.self, forKey: .width)
-        height = try values.decodeIfPresent(Int.self, forKey: .height)
-        className = try values.decodeIfPresent(String.self, forKey: .className)
-        confidence = try values.decodeIfPresent(Double.self, forKey: .confidence)
-    }
-    
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        x = try values.decodeIfPresent(Double.self, forKey: .x)
+//        y = try values.decodeIfPresent(Double.self, forKey: .y)
+//        width = try values.decodeIfPresent(Int.self, forKey: .width)
+//        height = try values.decodeIfPresent(Int.self, forKey: .height)
+//        className = try values.decodeIfPresent(String.self, forKey: .className)
+//        confidence = try values.decodeIfPresent(Double.self, forKey: .confidence)
+//    }
+//    
 }
 
 struct PredictionBase: Codable {
     let predictions: [Prediction]?
 
-    enum CodingKeys: String, CodingKey {
-        case predictions = "predictions"
-    }
-
-    init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        predictions = try values.decodeIfPresent([Prediction].self, forKey: .predictions)
-    }
+//    enum CodingKeys: String, CodingKey {
+//        case predictions = "predictions"
+//    }
+//
+//    init(from decoder: Decoder) throws {
+//        let values = try decoder.container(keyedBy: CodingKeys.self)
+//        predictions = try values.decodeIfPresent([Prediction].self, forKey: .predictions)
+//    }
 
 }

@@ -17,6 +17,7 @@ struct AddPhoto: View {
     @State private var isImagePickerPresented: Bool = false
     @State private var sourceType: SourceType = .camera
     @Binding var selectedPhoto: UIImage?
+    var width = UIScreen.main.bounds.width
     
     enum SourceType {
         case camera
@@ -27,6 +28,13 @@ struct AddPhoto: View {
         Button(action: {
             isConfirmationDialogPresented = true
         }, label: {
+//            Image(systemName: "photo.badge.plus.fill")
+//                .padding()
+//                .foregroundColor(.white)
+//                .background(.blue)
+//                .clipShape(Circle())
+//                .disabled(true)
+//            PlaceholderView()
             if let image = selectedPhoto {
                 SelectedImageView(image: image)
             } else {
@@ -60,13 +68,14 @@ struct SelectedImageView: View {
     var body: some View {
         Image(uiImage: image)
             .resizable()
-            .frame(width: width, height: 300)
+            .frame(width: width - 50, height: 300)
             .aspectRatio(contentMode: .fit)
             .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
 
 struct PlaceholderView: View {
+    var width = UIScreen.main.bounds.width
     var body: some View {
         ZStack {
             Image(systemName: "photo.badge.plus.fill")
@@ -76,6 +85,7 @@ struct PlaceholderView: View {
             RoundedRectangle(cornerSize: CGSize(width: 20, height: 10), style: .continuous)
                 .foregroundStyle(Color.gray.opacity(0.2))
         }
+        .frame(width: width - 50, height: 300)
     }
 }
 
